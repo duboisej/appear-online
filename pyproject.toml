@@ -1,8 +1,8 @@
 [build-system]
 requires = [
     "pyobjc-framework-Quartz==7.3",
-    "mouse=0.7.1"; sys_platform == "win32",
-    "mouse=0.7.1"; sys_platform == "linux",
-    "macmouse=0.7.4"; sys_platform == "darwin"
+    "mouse=0.7.1; sys_platform == 'win32'",
+    "mouse=0.7.1; sys_platform == 'linux'",
+    "macmouse=0.7.4; sys_platform == 'darwin'"
 ]
 build-backend = "setuptools.build_meta"

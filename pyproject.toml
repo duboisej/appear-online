@@ -1,5 +1,7 @@
 [build-system]
 requires = [
+    "setuptools",
+    "wheel",
     "pyobjc-framework-Quartz==7.3",
     "mouse==0.7.1; sys_platform == 'win32'",
     "mouse==0.7.1; sys_platform == 'linux'",
